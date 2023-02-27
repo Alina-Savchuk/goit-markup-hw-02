@@ -1,0 +1,26 @@
+body {
+  background-color: #ffffff;
+  color: #434455;
+}
+
+/* Header */
+/* Logo */
+.logo {
+  color: #2e2f42;
+}
+.web {
+  color: #4d5ae5;
+}
+
+/* Nav */
+.site-nav {
+  color: #2e2f42;
+}
+
+/* Logo колір синій: #4D5AE5; */
+/* Колір nav і заголовків: #2E2F42; */
+/* Contacts і параграфи колір: #434455; */
+/* Білий колір: #FFFFFF; */
+/* Логотип у футері color: #F4F4FD; */
+/* Текст у футері color: #E7E9FC; */
+/* Вторинний background: #F4F4FD; */
