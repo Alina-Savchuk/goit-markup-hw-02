@@ -1,22 +1,3 @@
-body {
-  background-color: #ffffff;
-  color: #434455;
-}
-
-/* Header */
-/* Logo */
-.logo {
-  color: #2e2f42;
-}
-.web {
-  color: #4d5ae5;
-}
-
-/* Nav */
-.site-nav {
-  color: #2e2f42;
-}
-
 /* Logo колір синій: #4D5AE5; */
 /* Колір nav і заголовків: #2E2F42; */
 /* Contacts і параграфи колір: #434455; */
@@ -24,3 +5,73 @@ body {
 /* Логотип у футері color: #F4F4FD; */
 /* Текст у футері color: #E7E9FC; */
 /* Вторинний background: #F4F4FD; */
+/* Raleway 800 */
+/* Roboto 500 400 700 */
+body {
+  background-color: #ffffff;
+  color: #434455;
+  font-family: "Roboto";
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header */
+/* Logo */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.logo .accent {
+  color: #4d5ae5;
+}
+
+/* Nav */
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Contacts */
+.contacts-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Main */
+/* Hero */
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  /* color: #ffffff; */
+}
