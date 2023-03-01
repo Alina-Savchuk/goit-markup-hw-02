@@ -1,77 +1,185 @@
-/* Logo колір синій: #4D5AE5; */
-/* Колір nav і заголовків: #2E2F42; */
-/* Contacts і параграфи колір: #434455; */
-/* Білий колір: #FFFFFF; */
-/* Логотип у футері color: #F4F4FD; */
-/* Текст у футері color: #E7E9FC; */
-/* Вторинний background: #F4F4FD; */
-/* Raleway 800 */
-/* Roboto 500 400 700 */
-body {
-  background-color: #ffffff;
-  color: #434455;
-  font-family: "Roboto";
+:root {
+  --primary-text-color: #2e2f42;
+  --body-text-color: #434455;
+  --primary-brand-color: #4d5ae5;
+  --accent-color: #404bbf;
+  --success-messages-color: #31d0aa;
+  --subtitle-text-color: #8e8f99;
+  --hero-text-color: #ffffff;
+  --footer-logo-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+  --box-shadow: rgba(0, 0, 0, 0.15);
 }
 
-ul {
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.list {
   list-style: none;
 }
 
-a {
+.link {
   text-decoration: none;
 }
-/* Header */
-/* Logo */
-.logo {
-  font-family: "Raleway";
+
+.contacts {
   font-style: normal;
+}
+
+/* ==========HEADER========== */
+.logo-text {
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
-  display: flex;
+  line-height: 1.33;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  color: var(--primary-text-color);
 }
-.logo .accent {
-  color: #4d5ae5;
+.logo-text-accent {
+  color: var(--primary-brand-color);
 }
 
-/* Nav */
-.nav-link {
-  font-style: normal;
+.menu-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  color: var(--primary-text-color);
 }
 
-/* Contacts */
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+  color: var(--accent-color);
+}
+
 .contacts-item {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-text-color);
 }
 
-/* Main */
-/* Hero */
+.contacts-item:hover,
+.contacts-item:focus,
+.contacts-item:active {
+  color: var(--accent-color);
+}
+/* ==========/HEADER========== */
+
+/* ==========MAIN PAGE========== */
+/* ==========Hero========== */
+.hero-section {
+  background-color: var(--primary-text-color);
+  color: var(--hero-text-color);
+}
+
 .hero-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #ffffff; */
+}
+
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 169px;
+  height: 56px;
+  color: var(--hero-text-color);
+  background: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px var(--box-shadow);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+  background-color: var(--accent-color);
+}
+/* ==========/Hero========== */
+
+/* ==========Our advantages========== */
+.hidden {
+  opacity: 0;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+/* ==========/Our advantages========== */
+
+/* ==========What are we doing========== */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-text-color);
+}
+/* ==========/What are we doing========== */
+
+/* ==========Our Team========== */
+.team-section {
+  background-color: var(--footer-logo-color);
+}
+/* ==========/Our Team========== */
+/* ==========/MAIN PAGE========== */
+
+/* ==========FOOTER========== */
+.page-footer {
+  background-color: var(--primary-text-color);
+}
+
+.logo-text-footer {
+  color: var(--footer-logo-color);
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+
+/* ==========PORTFOLIO PAGE========== */
+.filter-btn {
+  width: 116px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--footer-logo-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus,
+.filter-btn:active {
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
 }
