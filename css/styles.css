@@ -163,6 +163,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
 }
+/* ==========/FOOTER========== */
 
 /* ==========PORTFOLIO PAGE========== */
 .filter-btn {
@@ -183,3 +184,4 @@ body {
   color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
+/* ==========/PORTFOLIO PAGE========== */
