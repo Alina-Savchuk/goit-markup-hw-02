@@ -1,4 +1,5 @@
 :root {
+  --primary-bkg-color: #ffffff;
   --primary-text-color: #2e2f42;
   --body-text-color: #434455;
   --primary-brand-color: #4d5ae5;
@@ -13,7 +14,9 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: var(--primary-text-color);
+  background-color: var(--primary-bkg-color);
 }
 
 .list {
@@ -45,7 +48,6 @@ body {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -59,7 +61,6 @@ body {
 
 .contacts-item {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
@@ -122,7 +123,6 @@ body {
 }
 
 .text {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--body-text-color);
@@ -159,7 +159,6 @@ body {
 
 .footer-text {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
